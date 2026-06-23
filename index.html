@@ -1,25 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> My Website</title>
+    <title>My Website</title>
+
+    <style>
+        body {
+            background-image: url('14.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 500px;
+        }
+
+        .video-box {
+            position: absolute;
+            top: 350px;
+            right: 150px;
+        }
+
+        .video-box video {
+            width: 250px;
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
 
-<h1 style="color: blue;text-align:center;">Mahmood Yousufi</h1>
-<h1 style="font-size:40px;text-align:center;">Education Center</h1>
-<p style="color:green;font-family:Arial;font-size:30px;text-align:center;">This my first paragraph.</p>
+    <h1 style="color: blue; text-align: center;">Mahmood Yousufi</h1>
 
-<p style="color: white;font-weight: bold;">Important notice</p>
-<p style="font-style: italic;">learning HTML and CSS is fun!</p>
+    <h1 style="font-size: 40px; text-align: center;">
+        Education Center
+    </h1>
 
-<body style="background-image:url('14.jpg');background-size:cover;background-repeat: no-repeat;">
-<img src="my website.png" class="logo">
-<style>.logo{position: absolute; top:10px; right:10px;width:500px;}</style>
+    <p style="color: green; font-family: Arial; font-size: 30px; text-align: center;">
+        This is my first paragraph.
+    </p>
 
-<div class="video-box"><video controls><source src="zia1.mp4" type="video/mp4"></video> 
-<video>
-<div>
-<style>.video-box{position:absolute; top:350px;right:150PX;Width:150px;}.video-box video{width: 250px;display block;}</style>
-c
+    <p style="color: white; font-weight: bold; text-align: center;">
+        Important Notice
+    </p>
+
+    <p style="font-style: italic; text-align: center;">
+        Learning HTML and CSS is fun!
+    </p>
+
+    <img src="my website.png" alt="Logo" class="logo">
+
+    <div class="video-box">
+        <video controls>
+            <source src="zia1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
 </body>
 </html>
