@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> My Website</title>
+</head>
+<body>
+
+<h1 style="color: blue;text-align:center;">Mahmood Yousufi</h1>
+<h1 style="font-size:40px;text-align:center;">Education Center</h1>
+<p style="color:green;font-family:Arial;font-size:30px;text-align:center;">This my first paragraph.</p>
+
+<p style="color: white;font-weight: bold;">Important notice</p>
+<p style="font-style: italic;">learning HTML and CSS is fun!</p>
+
+<body style="background-image:url('14.jpg');background-size:cover;background-repeat: no-repeat;">
+<img src="my website.png" class="logo">
+<style>.logo{position: absolute; top:10px; right:10px;width:500px;}</style>
+
+<div class="video-box"><video controls><source src="zia1.mp4" type="video/mp4"></video> 
+<video>
+<div>
+<style>.video-box{position:absolute; top:350px;right:150PX;Width:150px;}.video-box video{width: 250px;display block;}</style>
+c
+</body>
+</html>
